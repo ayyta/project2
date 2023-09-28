@@ -68,15 +68,52 @@ const Card = () => {
 
 
 
-  const handleClick = () => {
+  const changeSide = () => {
     setState(state === 'front' ? 'back': 'front')
     setCard(state === 'front' ? front: back)
   }
 
+  const goFoward = () => {
+    const total = flagsData.length
+
+    if ((index + 1) < total) {
+      setIndex(index + 1)
+      setCard(<FrontCard img={flagsData[index+1].img}/>)
+      setState('front')
+    } else {
+      setIndex(0)
+      setCard(<FrontCard img={flagsData[0].img}/>)
+      setState('front')
+    }
+
+  }
+
+  const goBack = () => {
+    const total = flagsData.length
+
+    if ((index - 1) < 0) {
+      setIndex(total-1)
+      setCard(<FrontCard img={flagsData[total-1].img}/>)
+      setState('front')
+    } else {
+      setIndex(index-1)
+      setCard(<FrontCard img={flagsData[index-1].img}/>)
+      setState('front')
+    }
+  }
+
   return (
-  <div className="card-container" onClick={handleClick}>
-    {card}
+  <div>
+    <div className="card-container" onClick={changeSide}>
+      {card}
+    </div>
+    
+    <button onClick={goBack}>←</button>
+
+    <button onClick={goFoward}>→</button>
+
   </div>
+
   )
 
 }

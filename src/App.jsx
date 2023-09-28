@@ -1,5 +1,4 @@
 import './App.css'
-import './components/Card.css'
 import Card from "./components/Card.jsx"
 
 
