@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 const flagsData = [
   {
     name: 'Austria',
@@ -17,13 +18,13 @@ const flagsData = [
     img: 'https://www.worldometers.info/img/flags/small/tn_eg-flag.gif'
   }, {
     name: 'Finland',
-    img: 'https://www.worldometers.info/img/flags/small/tn_fi-flag.gif'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg'
   }, {
     name: 'Greece',
     img: 'https://www.worldometers.info/img/flags/small/tn_gr-flag.gif'
   }, {
     name: 'Holy See',
-    img: 'https://www.worldometers.info/img/flags/small/tn_vt-flag.gif'
+    img: 'https://vaticantips.com/wp-content/uploads/2021/12/vaticanflag.jpeg'
   }, {
     name: 'Indonesia',
     img: 'https://www.worldometers.info/img/flags/small/tn_id-flag.gif'
@@ -108,9 +109,9 @@ const Card = () => {
       {card}
     </div>
     
-    <button onClick={goBack}>←</button>
+    <button className="go-button" onClick={goBack}>←</button>
 
-    <button onClick={goFoward}>→</button>
+    <button className="go-button" onClick={goFoward}>→</button>
 
   </div>
 
