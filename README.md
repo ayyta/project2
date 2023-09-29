@@ -30,10 +30,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmhmcnFmZWU2bHcwdHFwcHhhdmZpYmpsOGpzc2xobTRmaHI4emx1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JPvQ03GDBSkMVEiMe6/giphy.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmhmcnFmZWU2bHcwdHFwcHhhdmZpYmpsOGpzc2xobTRmaHI4emx1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JPvQ03GDBSkMVEiMe6/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LiceCAP
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
